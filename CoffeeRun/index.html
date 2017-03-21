@@ -5,7 +5,14 @@
     <meta charset="utf-8">
     <title>coffeerun</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
-
+    <script>
+        function showMore() {
+            //var x = data.emailAddress;
+            //if (x != "") {
+            document.getElementById("show").style.display = "block";
+            //}
+        }
+    </script>
 </head>
 
 <body class="container">
@@ -110,7 +117,7 @@
                 <!-- Modal content-->
                 <div class="modal-content">
                     <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" onclick="checkEmail()">&times;</button>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
                         <h4 class="modal-title">Modal Header</h4>
                     </div>
                     <div class="modal-body">

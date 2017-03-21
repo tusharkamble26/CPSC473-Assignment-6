@@ -29,19 +29,13 @@
             });
             console.log(data);
             fn(data);
-
-
-            function showMore() {
-                var x = data.emailAddress;
-                if (x != "") {
-                    document.getElementById("show").style.display = "block";
-                }
-            }
-
-            this.reset();
+            var x = data.emailAddress;
+            //this.reset();
             this.elements[0].focus();
         });
     };
+
+
 
 
     App.FormHandler = FormHandler;
